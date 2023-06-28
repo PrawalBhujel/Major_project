@@ -1,0 +1,136 @@
+/* Google Fonts - poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #05A4DF;
+}
+.form{
+    max-width: 600px;
+    width: 50%;
+    padding: 50px;
+    border-radius: 6px;
+    background: #FFF;
+}
+
+header{
+    font-size: 28px;
+    font-weight: 600;
+    color: #232836;
+    text-align: center;
+
+}
+
+form{
+    margin-top: 30px;
+}
+
+form .field{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.field input, 
+.field button{
+    height: 100%;
+    width: 100%;
+    border: none;
+    font-size:16px;
+    font-weight: 400px;
+    border-radius: 6px;
+}
+
+.field button{
+    color: #fff;
+    background-color: #0089A3;
+    transition: all 0.3s ease;
+    cursor: pointer;}
+
+
+.field button:hover{
+        background-color: #06a0bb;}
+
+.field input{
+    outline: none;
+    padding: 0 15px;
+    border: 1px solid #CACACA ;
+}
+
+.field input:focus{
+    border-bottom-width: 2px;
+}
+
+.eye-icon{
+    position: absolute;
+    top:50%;
+    right:10px;
+    transform: translateY(-50%);
+    font-size: 18px;
+    color: #8b8b8b;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.form-link{
+    text-align: center;
+    margin-top: 10px;
+}
+
+.form-link span,
+.form-link a{
+    font-size: 14px;
+    font-weight: 400px;
+    color: #232836;
+}
+
+.form a{
+    color: #0171d3;
+    text-decoration: none;
+}
+
+.form a:hover{
+    text-decoration: underline;
+}
+
+.line{
+    position: relative;
+    height: 1px;
+    width: 100%;
+    margin:36px 0;
+    background-color: #d4d4d4
+}
+
+@media screen and (max-width: 700px){
+    #reg{
+        margin: 5px;
+        padding: 15px 10px;
+        height: 480px;
+        width:500px;
+   }
+    #loginform{
+        margin: 5px;
+        padding: 15px 10px;
+        height: 380px;
+        width:500px;
+    }
+
+   
+
+    }
+
